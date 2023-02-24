@@ -86,6 +86,11 @@ window.addEventListener('DOMContentLoaded', event => {
         exquisImage.src = 'assets/img/exquis_thumbnail_linkedin.png';
     })
 
+    // const waveEmoji = document.getElementById('wave-emoji');
+
+    // waveEmoji.addEventListener('mouseover', () => {
+
+    // })
     
 
 

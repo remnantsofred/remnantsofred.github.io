@@ -11679,3 +11679,31 @@ footer.footer .social-link:hover {
   left: 100px;
 
 }
+
+.wave-emoji {
+  display: inline-block
+}
+
+.wave-emoji:hover {
+  animation: loadingWiggle 4.0s linear infinite, rotateColors 5.0s linear infinite;
+}
+
+@keyframes loadingWiggle {
+  0% { transform: rotate(0deg), scale(100%) }
+  14% { transform: scale(115%) }
+  20% { transform: scale(105%) }
+  21% { transform: rotate(-5deg);
+        transform: scale(100%)
+      }
+  23% { transform: rotate(5deg); }
+  25% { transform: rotate(-5deg); }
+  27% { transform: rotate(5deg); }
+  29% { transform: rotate(-5deg); }
+  31% { transform: rotate(5deg); }
+  33% { transform: rotate(-5deg); }
+  35% { transform: rotate(0deg); }
+  48% { transform: scale(100%); }
+  54% { transform: scale(100%); }
+  70% { transform: scale(100%); }
+  100% { transform: scale(100%); }
+}
