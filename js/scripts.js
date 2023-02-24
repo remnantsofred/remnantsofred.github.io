@@ -54,6 +54,41 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         }
     })
+
+    // replace static projecti image with gif on hover
+    const cosmereImage = document.getElementById('cosmerepass-img');
+
+    cosmereImage.addEventListener('mouseover', () => {
+        cosmereImage.src = 'assets/cosmerepass-intro.gif';
+    })
+
+    cosmereImage.addEventListener('mouseleave', () => {
+        cosmereImage.src = 'assets/img/cosmerepass-thumbnail-v3.png';
+    })
+
+    const momoImage = document.getElementById('momo-img');
+
+    momoImage.addEventListener('mouseover', () => {
+        momoImage.src = 'assets/momo-intro.gif';
+    })
+
+    momoImage.addEventListener('mouseleave', () => {
+        momoImage.src = 'assets/img/momo-thumbnail-v3.png';
+    })
+
+    const exquisImage = document.getElementById('exquis-img');
+
+    exquisImage.addEventListener('mouseover', () => {
+        exquisImage.src = 'assets/new-skellie.gif';
+    })
+
+    exquisImage.addEventListener('mouseleave', () => {
+        exquisImage.src = 'assets/img/exquis_thumbnail_linkedin.png';
+    })
+
+    
+
+
 })
 
 function fadeOut(el) {

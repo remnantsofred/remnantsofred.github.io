@@ -11603,14 +11603,14 @@ footer.footer .social-link:hover {
   flex-direction: column;
   align-items: center;
 }
-
+/* 
 .static:hover {
   display: none;
 }
 
 .hidden {
   object-fit: cover;
-}
+} */
 
 .portfolio-links-ul {
   display: flex;
