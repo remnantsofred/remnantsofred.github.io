@@ -11677,6 +11677,7 @@ footer.footer .social-link:hover {
 .about-text-div {
   position: relative;
   left: 100px;
+  padding: 0px 38px;
 
 }
 
@@ -11685,7 +11686,7 @@ footer.footer .social-link:hover {
 }
 
 .wave-emoji:hover {
-  animation: loadingWiggle 4.0s linear infinite, rotateColors 5.0s linear infinite;
+  animation: loadingWiggle 4.0s linear infinite, linear infinite;
 }
 
 @keyframes loadingWiggle {
