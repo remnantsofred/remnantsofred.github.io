@@ -11671,13 +11671,13 @@ footer.footer .social-link:hover {
   border-radius: 50%;
   position: relative;
   left: 150px;
-  
+  display: none;
 }
 
 .about-text-div {
-  position: relative;
+  /* position: relative;
   left: 100px;
-  padding: 0px 38px;
+  padding: 0px 38px; */
 
 }
 
@@ -11725,4 +11725,10 @@ footer.footer .social-link:hover {
 
 h4 {
   margin-bottom: 1.5rem;
+}
+
+@media only screen and ( 320px <= width <= 480px) {
+  #sidebar-wrapper, .menu-toggle {
+    display: none;
+  }
 }
